@@ -3,7 +3,6 @@ import axios from 'axios'
 import {
 	Header,
 	Grid,
-	Segment,
 	Card,
 } from 'semantic-ui-react'
 import styled from 'styled-components'
@@ -59,9 +58,7 @@ class Beers extends React.Component {
 						</Card.Group>
 					</Grid.Row>
 				</Grid.Column>
-				<Grid.Column computer={2}>
-
-				</Grid.Column>
+				<Grid.Column computer={2} />
 				<Grid.Column computer={7} tablet={16} mobile={16}>
 					<Grid.Row>
 						<TallHeader as="h1" textAlign="center">Breweries</TallHeader>
